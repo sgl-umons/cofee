@@ -1,0 +1,36 @@
+[general]
+
+case-sensitive = false
+
+[filters]
+
+# name(-priority) = [list of filters]
+# by default, priority = 10
+
+claude-context = ['**/CLAUDE.md', '**/CLAUDE.local.md', '**/.claude/rules/*.md']
+claude-skills = ['**/.claude/skills/*/SKILL.md']
+claude-subagents = ['**/.claude/agents/*.md']
+
+copilot-context = ['**/.github/copilot-instructions.md', '**/.github/instructions/*.instructions.md', '**/.github/instructions/**/*.instructions.md']
+copilot-skills = ['**/.github/skills/*/SKILL.md']
+copilot-subagents = ['**/.github/agents/*.agent.md', '**/.copilot/agents/*.agent.md']
+
+codex-context = ['**/AGENTS.override.md', '**/.codex/AGENTS.md', '**/.codex/AGENTS.override.md']
+codex-skills = ['**/.codex/agents/*.md'] # not documented, but cross documented by cursor + same as generic
+codex-subagents = ['**/.codex/agents/*.toml']
+
+gemini-context = ['**/GEMINI.md', '**/.gemini/system.md']
+gemini-skills = ['**/.gemini/skills/*/SKILL.md']
+gemini-subagents = ['**/.gemini/agents/*.md']
+
+windsurf-context = ['**/.codeium/windsurf/memories/global_rules.md', '**/.windsurf/rules/*.md', '**/.windsurfrules']
+windsurf-skills = ['**/.windsurf/skills/*/SKILL.md']
+windsurf-subagents = [] # not (yet?) existing to the best of our knowledge
+
+# cline = ['**/.clinerules/*.md', '**/.clinerules/*.txt']
+cursor-context = ['**/.cursor/rules/*.md', '**/.cursor/rules/*.mdc', '**/.cursorrules']
+cursor-skills = ['**/.cursor/skills/*/SKILL.md']
+cursor-subagents = ['**/.cursor/agents/*.md']
+
+generic-context-0 = ['**/AGENTS.md']
+generic-skills-0 = ['**/*/SKILL.md']
