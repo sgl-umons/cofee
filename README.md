@@ -111,3 +111,7 @@ As an example, the following command will fetch The GitHub repository `https://g
 ```bash
 cofee https://github.com/sgl-umons/cofee -n cofee -s cofee_repository -o output.csv
 ```
+
+## License
+
+Distributed under [GNU Lesser General Public License v3](https://github.com/sgl-umons/cofee/blob/master/LICENSE.txt).
