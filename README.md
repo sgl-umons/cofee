@@ -1,7 +1,5 @@
 # cofee
 
----
-
 An automated tool for extracting files from Git repositories written in Python.
 `cofee` (**CO**ntext **F**ile **E**xtraction **E**ngine) is designed to be used as a CLI-tool.
 Given a Git repository, it traverses its history respecting the first-parent rule until the first commit (or given reference) is reached.
@@ -14,6 +12,11 @@ However, you can use `cofee` to extract any files by changing its configuration 
 This project is developed by Guillaume Cardoen at the Software Engineering Lab of the University of Mons (Belgium).
 
 ## Installation
+
+The easiest way to install `cofee` is to install from Pypi
+```
+pip install cofee
+```
 
 An easy way to install `cofee` is via `pip` from this GitHub repository
 ```
