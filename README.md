@@ -1,5 +1,10 @@
 # cofee
 
+[![License](https://badgen.net/pypi/license/cofee)](https://github.com/sgl-umons/cofee/blob/master/LICENSE.txt)
+[![Last release](https://badgen.net/github/release/sgl-umons/cofee/stable)](https://badgen.net/github/release/sgl-umons/cofee/stable)
+[![PyPI](https://badgen.net/pypi/v/cofee)](https://pypi.org/project/cofee)
+[![Last commit](https://badgen.net/github/last-commit/sgl-umons/cofee)](https://github.com/sgl-umons/cofee/commits/)
+
 An automated tool for extracting files from Git repositories written in Python.
 `cofee` (**CO**ntext **F**ile **E**xtraction **E**ngine) is designed to be used as a CLI-tool.
 Given a Git repository, it traverses its history respecting the first-parent rule until the first commit (or given reference) is reached.
